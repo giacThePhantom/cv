@@ -1,0 +1,98 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Giacomo Fantoni} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+39(328) 118-2628 \\ Via Delle Orfane 2, 38122, Trento, Italy \\ \href{mailto:giacomo.fantoni@studenti.unitn.it}{giacomo.fantoni@studenti.unitn.it}}
+
+\begin{document}
+
+\begin{rSection}{}
+I am an energetic and highly motivated person.
+I was able to develop a strict and reactive approach to achieve objective on time and with excellence.
+My primary interests are in the field of Computational Biology, in particular Computational Neuroscience.
+I have developed great communication and leadership skills thanks to the several group project, both personal and done during my Master and Bachelor studies.
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{OBJECTIVE}
+
+% {Software Engineer with 2+ years of experience in XXX, seeking full-time XXX roles.}
+
+
+% \end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Universit\`a degli studi di Trento} \hfill {Trento, Italy}\\
+Master of Quantitative and Computational Biology \hfill {Sept. 2021 - Present}
+\begin{itemize}
+   \item Relevant coursework: Bioinformatics, Data mining, Mathematical Modeling, Computational Biophysics, Function and plasticity of the Central Nervous System.
+\end{itemize}
+
+{\bf Universit\`a degli studi di Trento} \hfill {Trento, Italy}\\
+Bachelor of Computer Science\hfill {Sept. 2018 - Sept. 2021}\\
+BA Thesis: "Analysis of trascriptomic RNA-seq data from polisomial and total fraction from an epithelial cancer cellular line". Supervisor: Prof. A. Inga. Final grade 108/110.
+
+
+\end{rSection}
+
+
+\begin{rSection}{EXPERIENCE}
+
+\textbf{Universit\`a degli studi di Trento, Department of CIBIO} \hfill March 2021 - August 2021\\
+Analysis of trascriptomic RNA-seq data \hfill \textit{Trento, Italy}
+ \begin{itemize}
+    \itemsep -3pt {}
+     \item Implemented a pipeline to process RNA-seq data on a remote server.
+     \item Analysed processed data using a combination of R and python to gain biological insights regarding their involvement in cancer.
+     \item The work is accessible at \href{https://github.com/giacThePhantom/Tesi}{https://github.com/giacThePhantom/Tesi}
+ \end{itemize}
+
+
+\textbf{Universit\`a degli studi di Trento, Department of CIMEC} \hfill March 2023 - Present\\
+Computational modelling and simulation of the antennal lobe of the Honey Bee to uncover neuronal correlates of sleep \hfill \textit{Rovereto, Italy}
+ \begin{itemize}
+    \itemsep -3pt {}
+     \item Implemented a gpu-accelerated computational model of the antennal lobe in python.
+     \item The work is accessible at \href{https://github.com/giacThePhantom/genn-network-model}{https://github.com/giacThePhantom/genn-network-model}
+ \end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+\item \textbf{Personal coursework collection} {I have written in \LaTeX\ all the material regarding the content of my university courses, making it accessible at \href{https://github.com/giacThePhantom}{https://github.com/giacThePhantom}. This has provided easily accessible quality material for my colleagues and it has encouraged some people to join this project, creating a small community of maintainers.}
+\item \textbf{Smith Waterman implementation} {I have implemented in python a version of the alignment algorithm by Smith-Waterman available at \href{https://github.com/giacThePhantom/smith-waterman}{https://github.com/giacThePhantom/smith-waterman}.}
+\item \textbf{Identification and validation of a vitamin D-related prognostic signature in colorectal cancer} {A group project dealing with biological cancer data implemented in R. We implemented a normalization procedure to avoid batch effects in microarray data and performed a Cox proportional hazard regression model to them. Source code is available at: \href{https://github.com/giacThePhantom/BioDataMining}{https://github.com/giacThePhantom/BioDataMining}.}
+\item \textbf{Implementation of the Morris-Lecar neuron model} {A group project dealing with neuron dynamics implemented in Matlab.
+   The code models the dynamics of a neuron using an hybrid stochastic model in which the membrane potential evolves according to a deterministic differential equation and the opening and closing of ion channels are modelled as a stochastic process. Source code is available at: \href{https://github.com/giacThePhantom/mathematical-modeling-and-simulation-project}{https://github.com/giacThePhantom/mathematical-modeling-and-simulation-project}.}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming: & Python (numpy, pandas, scikit-learn, pytorch), R, C/C++, Java, bash, Matlab, \\
+ &Javascript, Linux systems, Git, \LaTeX\\
+Languages: & Fluent in Italian and English
+\end{tabular}\\
+\end{rSection}
+
+
+\end{document}

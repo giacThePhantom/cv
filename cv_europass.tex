@@ -1,0 +1,116 @@
+\documentclass[english,a4paper]{europasscv}
+\usepackage{multicol}
+
+\ecvname{Giacomo Fantoni}
+\ecvaddress{Via Grazia Deledda 42, Ghedi (BS), 25016, Italy}
+\ecvmobile{(+39) 328 118 2628}
+\ecvemail{giacomo.fantoni@studenti.unitn.it}
+\ecvgithubpage{https://github.com/giacThePhantom}
+\ecvlinkedinpage{https://www.linkedin.com/in/giacomo-fantoni-68b800235}
+\ecvdateofbirth{11 October 1999}
+\ecvnationality{Italian}
+\ecvgender{Male}
+
+\begin{document}
+\begin{europasscv}
+   \ecvpersonalinfo
+   \ecvitem{}{
+      An energetic and highly motivated professional with a strong commitment to achieving objectives in a timely manner while maintaining a focus on excellence.
+      I have a keen interest in Computational Biology, specifically within the realm of Computational Neuroscience.
+      I offer a proactive and disciplined approach to problem-solving, coupled with exceptional communication and leadership abilities gained through various group projects during both Master's and Bachelor's studies.
+      Additionally, I am eager to broaden my skill set by acquiring experimental laboratory work skills, as I believe a comprehensive understanding of both computational and experimental techniques will enhance my ability to analyze neuronal data and make significant contributions in the field.
+   }
+
+   \ecvsection{Education}
+
+   \ecvtitle{September 2021 -- Present}{Master's Degree in Quantitative and computational biology}
+   \ecvitem{}{University of Trento, Trento (Italy)}
+   \ecvitem{Master thesis}{\textit{``Synchronization of neuronal activity in the antennal lobe of the honeybee during sleep''}, Supervisor Prof. A. Haase.}
+   \ecvitem{Relevant Coursework}{
+      \begin{ecvitemize}
+         \item Bioinformatics.
+         \item Machine Learning.
+         \item Mathematical Modeling.
+         \item Computational Biophysics.
+         \item Function and plasticity of the Central Nervous System.
+      \end{ecvitemize}
+   }
+
+   \ecvtitle{September 2018 -- September 2021}{Bachelor's Degree in Computer Science}
+   \ecvitem{}{University of Trento, Trento (Italy)}
+   \ecvitem{Bachelor thesis}{\textit{``Analysis of trascriptomic RNA-seq data from polisomial and total fraction from an epithelial cancer cellular line''}. Supervisor Prof. A. Inga. Final grade 108/110}
+   \ecvitem{Relevant Coursework}{
+      \begin{ecvitemize}
+         \item Molecular biology.
+         \item Genetics.
+      \end{ecvitemize}
+   }
+
+   \ecvsection{Experience}
+   \ecvtitle{March 2021 -- August 2021}{Intern -- Analysis of transcriptomic RNA-seq data}
+   \ecvitem{}{University of Trento, Department of CIBIO, Trento (Italy)}
+   \ecvitem{}{
+      \begin{ecvitemize}
+        \item Implemented a pipeline to process RNA-seq cancer data on a remote server.
+        \item Analysed processed data using a combination of R and python to gain biological insights.
+        \item The work is accessible at \ecvhighlight{\href{https://github.com/giacThePhantom/Tesi}{https://github.com/giacThePhantom/Tesi}}.
+      \end{ecvitemize}
+   }
+   \ecvtitle{March 2021 -- August 2021}{Intern -- Computational modelling and simulation of the antennal lobe of the honeybee}
+   \ecvitem{}{University of Trento, Department of CiMeC, Trento (Italy)}
+   \ecvitem{}{
+      \begin{ecvitemize}
+         \item Implemented a gpu-accelerated computational model of the antennal lobe of the honeybee in python using the \ecvhighlight{\href{https://genn-team.github.io}{genn}} library.
+         \item Analysed model results to gain biological insights from it.
+      \end{ecvitemize}
+   }
+
+   \ecvsection{Personal projects}
+   \ecvtitle{}{Personal coursework collection}
+   \ecvitem{}{
+      Wrote in \LaTeX\ all the material regarding the content of my university courses, making it accessible at \ecvhighlight{\href{https://github.com/giacThePhantom}{https://github.com/giacThePhantom}}.
+      This has provided easily accessible quality material for my colleagues and it has encouraged some people to join this project, creating a small community of maintainers.
+   }
+   \ecvtitle{}{Implementation of the Morris-Lecar neuron model}
+   \ecvitem{}{
+      A group project dealing with neuron dynamics implemented in Matlab.
+      The code models the dynamics of a neuron using an hybrid stochastic model in which the membrane potential evolves according to a deterministic differential equation and the opening and closing of ion channels are modelled as a stochastic process.
+      Source code is available at: \ecvhighlight{\href{https://github.com/giacthephantom/mathematical-modeling-and-simulation-project}{https://github.com/giacthephantom/mathematical-modeling-and-simulation-project}}.
+   }
+   \ecvtitle{}{Reimplementation of the tool ``Current based decomposition -- CURBD''}
+   \ecvitem{}{
+      Re-implemented \ecvhighlight{\href{https://github.com/rajanlab/CURBD}{CURBD}}, a Python tool that trains a spiking recurrent neural network capable of reproducing experimental neural data.
+      This reimplementation offers a more flexible,  modular, and explainable codebases.
+      It enables the tool to leverage inferred functional interactions to from the trained models to uncover directional currents between multiple brain regions.
+      The code can be accessed at \ecvhighlight{\href{https://github.com/giacThePhantom/CURBD}{https://github.com/giacThePhantom/CURBD}}.
+   }
+   \ecvsection{Personal skills}
+
+      \ecvmothertongue{Italian}
+      \ecvlanguageheader
+      \ecvlanguage{English}{C1}{C1}{C1}{C1}{C1}
+      \ecvlanguagefooter
+
+      \ecvdigitalcompetence
+         {\ecvProficient}
+         {\ecvProficient}
+         {\ecvIndependent}
+         {\ecvProficient}
+         {\ecvProficient}
+
+      \ecvitem{Programming skills}{
+         \begin{ecvitemize}
+            \item Python (numpy, pandas, scikit-learn, pytorch).
+            \item R.
+            \item C/C++.
+            \item Java.
+            \item Bash.
+            \item Matlab.
+            \item Javascript.
+            \item Linux systems.
+            \item Git.
+            \item \LaTeX.
+         \end{ecvitemize}
+      }
+\end{europasscv}
+\end{document}
