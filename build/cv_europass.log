@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.5)  26 MAY 2023 19:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.9.2)  4 SEP 2023 13:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -645,16 +645,16 @@ Package rerunfilecheck Info: File `cv_europass.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11675 strings out of 476025
- 185462 string characters out of 5796533
+ 11675 strings out of 476872
+ 185462 string characters out of 5820379
  1883388 words of memory out of 5000000
- 31925 multiletter control sequences out of 15000+600000
+ 31842 multiletter control sequences out of 15000+600000
  537384 words of font info for 57 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 90i,23n,90p,362b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 725 hyphenation exceptions out of 8191
+ 90i,23n,90p,362b,602s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-
 dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on ./build/cv_europass.pdf (2 pages, 38055 bytes).
+Output written on ./build/cv_europass.pdf (2 pages, 38052 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream
