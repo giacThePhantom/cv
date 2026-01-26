@@ -1,0 +1,97 @@
+\documentclass[11pt, a4paper, roman]{letter}
+
+\usepackage[top = 12mm, bottom = 12mm, left=10mm, right=10mm]{geometry} %determines page margins / document formatting
+\usepackage[T1]{fontenc}  % We are using pdfLaTeX,
+\usepackage[utf8]{inputenc} %allows direct input of accented characters
+\usepackage{ragged2e} %allows for right aligned / left aligned text instead of all justified
+
+\usepackage[UKenglish]{babel} %sets hypenation / spelling etc
+\usepackage[stretch = 25, shrink = 25]{microtype}  %for better formatting of words in a line / sentence
+
+
+\usepackage{graphicx} %Required for inserting images
+\usepackage{fontawesome} %for nice icons
+
+\usepackage{fancyhdr} %to create header and footer
+
+\usepackage{enumitem} % To redefine spacing in lists
+
+\usepackage{xcolor} %To add colour to the document
+\definecolor{cvteal}{HTML}{008080} %Change this to be any hexcode
+\definecolor{cvblue}{HTML}{304263} %Change this to be any hexcode
+\usepackage[colorlinks = true, urlcolor = black, linkcolor = white]{hyperref}
+\begin{document}
+
+\pagestyle{empty}
+\raggedbottom
+
+\begin{minipage}[t]{0.5\textwidth}
+    \vspace*{\fill}
+    \textsc{{\Huge Giacomo Fantoni}} %Name & Suffix if appropriate
+    \vspace*{\fill}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \setlength{\baselineskip}{15pt}
+    \RaggedLeft
+    \faMobile{} +39 328 118 2628\\
+    \faHome{} Trento, Italy\\
+    \faEnvelope {} giacomo.fantoni@unitn.it\\
+\end{minipage}
+
+{\color{cvteal} \rule{\linewidth}{1mm}}
+
+\begin{minipage}[t]{\textwidth}
+
+    \begin{letter} {PhD Selection Committee,\\
+Via via Sommarive 9,  \\Povo (Trento)\\Italy\\38123} %receipients address
+\setlength{\parskip}{5pt} %set inter-parapgraph distance
+\setlength{\baselineskip}{15pt} %set inter-line distance
+    \opening{Dear PhD Selection Committee,}
+
+    \begin{center} {\textbf{Position:} \underline{PhD}} \end{center}
+
+\justifying{
+}
+
+\vspace*{\fill}
+{\color{cvteal} \rule{\linewidth}{1mm}}
+
+\newpage
+
+\newpage
+
+{
+\setlength{\parskip}{10pt}
+\setlength{\parindent}{10pt}
+\setlength{\baselineskip}{15pt}
+
+I am excited to apply for the PhD program in Biomolecular Science with a curriculum in Computational Biology at the Department of Cellular, Computational and Integrative Biology (CIBIO) of the University of Trento.
+As a passionate and driven individual with a strong foundation in computer science and biology, I am confident that the program will provide me with the ideal environment to explore how computational methods can be applied to answer biological questions and to contribute meaningfully to the advancement of computational biology.
+In particular, I am interested in the development of computational methods to predict the behavior of neuronal systems to be able to understand how they learn and memorize.
+This new information could then be used to develop new computational methods, in a virtuous cycle of knowledge generation and application.
+Neurodegenerative diseases offer a unique opportunity to study the brain, as they affect specific neuronal systems and studying how the electrical signal changes with neurons' death could lead to the understanding of the dynamics underlying the formation and consolidation of knowledge inside the brain.\\
+During my bachelor's study, I have been able to develop a strong foundation in computer science, with a particular focus on understanding how to deal with complex computational systems, with a focus on producing efficient, scalable and generalizable solutions to programming problems.\\
+My master's study in computational biology has allowed me to deepen my understanding of biological systems and to apply the computer engineering skills acquired during my bachelor's to their analysis.
+I also focused my studies on the development of mathematical models able to mimic biological systems and to predict their behavior.\\
+My experience during the research fellowship in the PREDICTOMICS project allowed me to apply the knowledge acquired during my studies to real-world research activities, further improving my data analysis skills and further increasing my conviction in undertaking a career in academics.\\
+I am particularly drawn to the University of Trento because of its strong reputation for interdisciplinary work, its faculty's expertise in computational biology and the positive experience I had at the CIBIO department both during my studies and my fellowship.
+The work of Prof. Domenici, in particular, aligns with my research interest, and I am excited about the opportunity to work with him.
+His research on the analysis of neurodegeneration and the development of computational methods to predict the behavior of biological systems is particularly inspiring to me, as it applied mathematical methods to create a link between molecular pathways and the system-level events that characterize Parkinson's disease.
+
+}
+
+Yours sincerely,\\\textbf{Giacomo Fantoni}
+
+\vspace*{\fill}
+
+{\color{cvteal} \rule{\linewidth}{1mm}}
+\end{letter}
+\end{minipage}
+\end{document}
+
+
+
+
+
+Thank you for considering my application.
+I look forward to the opportunity to discuss my qualifications further.
