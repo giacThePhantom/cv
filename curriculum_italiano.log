@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.1)  26 JAN 2026 15:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.1)  29 JAN 2026 10:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -168,31 +168,45 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen154
 \Gm@layoutvoffset=\dimen155
 \Gm@dimlist=\toks19
-) (/opt/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+)
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(/opt/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count285
 \l__pdf_internal_box=\box54
 ) (./curriculum_italiano.aux)
 \openout1 = `curriculum_italiano.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
  (/opt/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
  (/opt/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -215,7 +229,7 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 \makeMPintoPDFobject=\count291
 \everyMPtoPDFconversion=\toks21
 )) (/opt/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 10.
+Package hyperref Info: Link coloring ON on input line 11.
  (./curriculum_italiano.out) (./curriculum_italiano.out)
 \@outlinefile=\write3
 \openout3 = `curriculum_italiano.out'.
@@ -256,18 +270,18 @@ Package hyperref Info: Link coloring ON on input line 10.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 10.
+(Font)              <10.95> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 10.
+(Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 10.
+(Font)              <6> on input line 11.
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 10--10
+Overfull \hbox (30.0pt too wide) in paragraph at lines 11--11
 [] 
  []
 
 ! Undefined control sequence.
-l.39 ...i.it/CIBB2025/}{CIBB 2025} e \ecvhighlight
+l.40 ...i.it/CIBB2025/}{CIBB 2025} e \ecvhighlight
                                                   {\href{https://www.ds4hb.p...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -276,12 +290,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (12.79666pt too wide) in paragraph at lines 62--64
+Overfull \hbox (12.79666pt too wide) in paragraph at lines 63--65
 \OT1/cmr/m/n/10.95 PREDICTive Cardio-metabolic tran-scrip-tOMIC tra-jec-to-rieS in the Bar-illa Off-spring Follow-up STUDY: The PREDICT-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
+Overfull \hbox (3.21658pt too wide) in paragraph at lines 77--78
+\OT1/cmr/m/n/10.95 bees,Neural Net-works, Vol-ume 189, 2025, 107575, ISSN 0893-6080, [][]https://doi.org/10.1016/j.neunet.2025.107575[][]. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
 
@@ -290,7 +309,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--80
 [1
 
 {/opt/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/opt/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 117--122
+Underfull \hbox (badness 10000) in paragraph at lines 119--124
 
  []
 
@@ -305,18 +324,18 @@ Package rerunfilecheck Info: File `curriculum_italiano.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8864 strings out of 473190
- 137485 string characters out of 5687152
- 552142 words of memory out of 5000000
- 32040 multiletter control sequences out of 15000+600000
+ 8865 strings out of 473190
+ 137493 string characters out of 5687152
+ 553173 words of memory out of 5000000
+ 32041 multiletter control sequences out of 15000+600000
  563177 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,9n,93p,591b,487s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,9n,93p,591b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on curriculum_italiano.pdf (2 pages, 94109 bytes).
+Output written on curriculum_italiano.pdf (2 pages, 94692 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 61 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

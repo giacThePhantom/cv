@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1769438852.40529 "curriculum_italiano.tex" "curriculum_italiano.pdf" "curriculum_italiano" 1769438852.69334 2
+["pdflatex"] 1769680285.7095 "curriculum_italiano.tex" "curriculum_italiano.pdf" "curriculum_italiano" 1769680285.99685 2
   "/opt/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1743515969 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/opt/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1743515969 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1743515969 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -69,9 +69,9 @@
   "/opt/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1743515969 5501077 43596a8b09d1c4437257137037c425f3 ""
   "/opt/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743515969 3346276 9e0406f133c2f833c1a8b5bd7176fa8d ""
   "/opt/texlive/2025/texmf.cnf" 1743515969 585 81f10441804f05cc9107aafbbb0bcd23 ""
-  "curriculum_italiano.aux" 1769438852.66934 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "curriculum_italiano.out" 1769438852.60721 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "curriculum_italiano.tex" 1769438850.79831 7048 aae9556a8c1f364327d38643e5aad9dc ""
+  "curriculum_italiano.aux" 1769680285.9722 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "curriculum_italiano.out" 1769680285.91132 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "curriculum_italiano.tex" 1769680285.6972 7488 d62233986ef0e7a1d3ff6411a44d5047 ""
   "resume.cls" 1718012423.7034 4919 3de8e18ca902dcc7e78fd582e8068efc ""
   (generated)
   "curriculum_italiano.aux"
